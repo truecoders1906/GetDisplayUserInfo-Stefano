@@ -6,15 +6,38 @@ namespace GetUserInfo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please provide the following information.");
+            Console.Write("What is your first name");
+            string firstName = Console.ReadLine();
+
+            Console.Write("What is your last name");
+            string lastName = Console.ReadLine();
+
+            Console.Write("What is your favorite number");
+            int favNumber = Console.ReadLine();
+
+            Console.WriteLine("Do you have any pets?");
+			Console.Write("Please reply with:  \"yes\" or \"no\"");
+            string doYouHavePets = Console.ReadLine();
+
+            Console.WriteLine("How many pets do you have?");
+            Console.Write("Please answer with a number: ");
+            int numberOfPets = Console.ReadLine();
+
+            Console.Write("What is your first name");
+            string nameOfPets = Console.ReadLine();
+
+
         }
     }
 }
 
+
+
+
+
+
 /*
-1. Clone this repository to your machine
-2. Create and checkout a new branch to work on this project
-3. Create a new C# console application
 4. Using C# classes to implement, ask the user for information about themselves:
     - First Name
     - Last Name
